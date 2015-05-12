@@ -6,7 +6,7 @@ void dropEvent(DropEvent theDropEvent) {
 
   // if the dropped object is an image, then 
   // load the image into our PImage.
-  if (theDropEvent.isImage()) {
+  if (theDropEvent.isImage()&&theDropEvent.isFile()) {
     println("### loading image ...");
     dimg = theDropEvent.loadImage();
     simg = theDropEvent.loadImage();

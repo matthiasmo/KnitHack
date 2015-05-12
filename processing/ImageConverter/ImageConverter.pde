@@ -1,7 +1,12 @@
+
+
 /*
 Image Converter for hacked Brother KH970.
  2013 August
  So Kanno
+ 
+ Added checksum and bugfixes by Matthias Mold for stitchingworlds.net
+ May 2015
  */
 
 import controlP5.*;
